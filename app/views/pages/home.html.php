@@ -1,4 +1,4 @@
 <?php $this->title('Home'); ?>
-<div id="content">
+<div>
 	<img id="gc" src="<?= $this->path('/img/global-classroom.png') ?>" alt="Global Classroom" />
 </div>
