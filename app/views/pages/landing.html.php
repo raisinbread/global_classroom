@@ -6,7 +6,9 @@
 		<li><a href="">How To Begin</a></li>
 		<li><a href="">Where It's Working</a></li>
 	</ul>
-	<?= $this->gallery->show(); ?>
+	<div class="gallery">
+		<?= $this->gallery->show(); ?>
+	</div>
 </div>
 <div id="content">
 	<h1>Here is a heading!</h1>
