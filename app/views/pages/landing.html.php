@@ -24,3 +24,10 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
+<footer>
+	<a href="http://www.kenyakeys.org"><?= $this->html->image('kenya-keys.png', array('class' => 'kenya-keys')); ?></a>
+	<p>The Global Classroom is the education outreach program
+of the partnership of <a href="http://kenyakeys.org">Kenya Keys</a> and <a href="http://ussynthetic.com">US Synthetic</a>.<br /><br />
+Proudly powered by <a href="http://www.engineyard.com/products/orchestra">Engine Yard</a> and <a href="http://lithify.me">Lithium</a>.</p>
+	<a href="http://ussynthetic.com"><?= $this->html->image('us-synthetic.png', array('class' => 'us-synthetic')); ?></a>
+</footer>
