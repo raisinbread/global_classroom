@@ -16,27 +16,7 @@
 </head>
 <body class="app">
 	<div id="container">
-		<div id="nav">
-			<?= $this->html->image('global-classroom-small.png'); ?>
-			<ul>
-				<li><a href="">How It Works</a></li>
-				<li><a href="">How To Begin</a></li>
-				<li><a href="">Where It's Working</a></li>
-			</ul>
-			<div class="gallery">
-				<?= $this->gallery->show(); ?>
-			</div>
-		</div>
-		<div id="content">
-			<?php echo $this->content(); ?>
-		</div>
-		<footer>
-			<a href="http://www.kenyakeys.org"><?= $this->html->image('kenya-keys.png', array('class' => 'kenya-keys')); ?></a>
-			<p>The Global Classroom is the education outreach program
-		of the partnership of <a href="http://kenyakeys.org">Kenya Keys</a> and <a href="http://ussynthetic.com">US Synthetic</a>.<br /><br />
-		Proudly powered by <a href="http://www.engineyard.com/products/orchestra">Engine Yard</a> and <a href="http://lithify.me">Lithium</a>.</p>
-			<a href="http://ussynthetic.com"><?= $this->html->image('us-synthetic.png', array('class' => 'us-synthetic')); ?></a>
-		</footer>
+		<?php echo $this->content(); ?>
 	</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript">
