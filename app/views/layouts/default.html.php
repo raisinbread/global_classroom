@@ -17,9 +17,9 @@
 <body class="app">
 	<div id="container">
 		<div id="nav">
-			<?= $this->html->image('global-classroom-small.png'); ?>
+			<?= $this->html->link($this->html->image('global-classroom-small.png'), '/', array('escape' => false)); ?>
 			<ul>
-				<li><a href="">How It Works</a></li>
+				<li><?= $this->html->link('How It Works', '/pages/how-it-works') ?></li>
 				<li><a href="">How To Begin</a></li>
 				<li><a href="">Where It's Working</a></li>
 			</ul>

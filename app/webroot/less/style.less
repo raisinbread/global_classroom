@@ -56,6 +56,11 @@ p {
 	line-height: 21px;
 }
 
+cite {
+	display:block;
+	text-align:right;
+}
+
 .marginned() {
 	margin: @gutter-width * 1px @gutter-width * 1px 0 @gutter-width * 1px;
 }
@@ -97,6 +102,9 @@ p {
 	min-height:400px;
 	p {
 		.marginned();
+	}
+	p:last-child {
+		margin-bottom: @gutter-width * 1px;
 	}
 }
 

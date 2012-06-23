@@ -28,7 +28,8 @@ class PagesController extends \lithium\action\Controller {
 	public function view() {
 		$path = func_get_args() ?: array('home');
 		$template = join('/', $path);
-		$layout = strstr($template, 'landing') ? 'default' : 'placeholder';
+		$layout = strstr($template, 'home') !== false ? 'placeholder' : 'default';
+		// die('<pre>' . print_r(compact('layout', 'template'), true) . '</pre>');
 		return $this->render(compact('template', 'layout'));
 	}
 }
