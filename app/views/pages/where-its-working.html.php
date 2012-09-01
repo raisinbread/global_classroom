@@ -7,7 +7,8 @@
 <?= $this->html->image('hawthorne_1.jpg', array('class' => 'accent left')); ?>
 <p>Hawthorne Elementary school joined hands with Bahakwenu in 2007, before the Global Classroom had an official title.  Hawthorne students have yearly assemblies where they are able to learn about the learning conditions and challenges for the students they befriend in rural Kenya.</p>
 <?= $this->html->image('hawthorne_2.jpg', array('class' => 'accent right')); ?>
-<p>Every year since 2007 Hawthorne has done a “sister project” in Kenya, the most renowned one occurring when Hawthorne art teacher, Shelley Rich, went to Bahakwenu to deliver murals painted by her students.  She worked with the students at Bahakwenu, who had the chance to hold a paint brush for the first time.  The murals they produced now hang in the lobby of Hawthorne Elementary school.</p>
+<p>Every year since 2007 Hawthorne has done a &quot;sister project&quot; in Kenya, the most renowned one occurring when Hawthorne art teacher, Shelley Rich, went to Bahakwenu to deliver murals painted by her students.  She worked with the students at Bahakwenu, who had the chance to hold a paint brush for the first time.  The murals they produced now hang in the lobby of Hawthorne Elementary school.</p>
+<?= $this->html->image('hawthorne_3.jpg', array('class' => 'accent left')); ?>
 <p>The Hawthorne- produced mural resides in the Taru community library, a library that is used by young and old, in an area where libraries are unheard of.  These murals are vivid illustrations of the loving connection established between two schools.</p>
 
 <h2>Timberline Middle School <span>Mwembeni Primary School</span></h2>
