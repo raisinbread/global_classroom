@@ -20,8 +20,8 @@
 			<?= $this->html->link($this->html->image('global-classroom-small.png'), '/', array('escape' => false)); ?>
 			<ul>
 				<li><?= $this->html->link('How It Works', '/pages/how-it-works') ?></li>
-				<li><a href="">How To Begin</a></li>
-				<li><a href="">Where It's Working</a></li>
+        <li><a href="">How To Begin</a></li>
+        <li><?= $this->html->link('Where It\'s Working', '/pages/where-its-working') ?></li>
 			</ul>
 			<div class="gallery">
 				<?= $this->gallery->show(); ?>

@@ -1,59 +1,65 @@
 @import 'grid.less';
 @import 'elements.less';
 
-@column-width: 60;
-@gutter-width: 20;
-@columns: 12;
+@column-width:60;
+@gutter-width:20;
+@columns:12;
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 @font-face {
-	font-family: 'VintageRegular';
-	src: url('../fonts/vintage-webfont.eot');
-	src: url('../fonts/vintage-webfont.eot?#iefix') format('embedded-opentype'),
+	font-family:'VintageRegular';
+	src:url('../fonts/vintage-webfont.eot');
+	src:url('../fonts/vintage-webfont.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/vintage-webfont.woff') format('woff'),
 		url('../fonts/vintage-webfont.ttf') format('truetype'),
 		url('../fonts/vintage-webfont.svg#VintageRegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+	font-weight:normal;
+	font-style:normal;
 }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 body {
-	background: #f8e9d1 url('../img/paper.jpg');
-	font-family: Arial, sans-serif;
-	font-size: 14px;
+	background:#f8e9d1 url('../img/paper.jpg');
+	font-family:Arial, sans-serif;
+	font-size:14px;
 }
 
 h1 {
-	font-family: 'VintageRegular';
-	letter-spacing: 1px;
-	font-size: 36px;
-	text-transform: uppercase;
+	font-family:'VintageRegular';
+	letter-spacing:1px;
+	font-size:38px;
+	text-transform:uppercase;
 	.marginned();
 }
 
 h2 {
-	font-family: 'VintageRegular';
-	letter-spacing: 1px;
-	font-size: 25px;
-	text-transform: uppercase;
-	color: #47562c;
+  clear:left;
+	font-family:'VintageRegular';
+	letter-spacing:1px;
+	font-size:30px;
+	text-transform:uppercase;
+	color:#47562c;
 	.marginned();
+  span {
+    color:#3B2314;
+    display:block;
+    font-size:80%;
+  }
 }
 
 a:visited, a:link {
-	color: #6d8443;
-	text-decoration: none;
+	color:#6d8443;
+	text-decoration:none;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration:underline;
 }
 
 p {
-	line-height: 21px;
+	line-height:21px;
 }
 
 cite {
@@ -62,29 +68,29 @@ cite {
 }
 
 .marginned() {
-	margin: @gutter-width * 1px @gutter-width * 1px 0 @gutter-width * 1px;
+	margin:@gutter-width * 1px @gutter-width * 1px 0 @gutter-width * 1px;
 }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 #container {
-	width: (@column-width * @columns) + (@gutter-width * @columns) * 1px;
-	margin: (@gutter-width * 1px) auto;
-	overflow: hidden;
+	width:(@column-width * @columns) + (@gutter-width * @columns) * 1px;
+	margin:(@gutter-width * 1px) auto;
+	overflow:hidden;
 }
 
 #nav {
 	.column(3);
 	ul {
 		li {
-			margin-top: @gutter-width * 1px;
-			float: right;
-			font-family: 'VintageRegular';
-			font-size: 20px;
-			text-transform: uppercase;
+			margin-top:@gutter-width * 1px;
+			float:right;
+			font-family:'VintageRegular';
+			font-size:20px;
+			text-transform:uppercase;
 			a:hover {
 				text-decoration:none;
-				color: #88a053;
+				color:#88a053;
 			}
 		}
 	}
@@ -98,22 +104,33 @@ cite {
 #content {
 	.column(9);
 	.rounded(10px);
-	background: #fff;
+	background:#fff;
 	min-height:400px;
 	p {
 		.marginned();
 	}
 	p:last-child {
-		margin-bottom: @gutter-width * 1px;
+		margin-bottom:@gutter-width * 1px;
 	}
+  img.accent {
+    .marginned();
+    margin-bottom:@gutter-width * 1px;
+    max-width:220px;
+  }
+  img.left {
+    float:left;
+  }
+  img.right {
+    float:right;
+  }
 }
 
 footer {
 	.column(9);
-	position: relative;
-	font-family: Arial, sans-serif;
+	position:relative;
+	font-family:Arial, sans-serif;
 	font-size:11px;
-	color: #3b2314;
+	color:#3b2314;
 	img.kenya-keys {
 		position:absolute;
 		top:@gutter-width * 1px;
@@ -121,19 +138,19 @@ footer {
 	}
 	img.us-synthetic {
 		position:absolute;
-		top: (@gutter-width + 15) * 1px;
+		top:(@gutter-width + 15) * 1px;
 		right:@gutter-width * 1px;
 	}
 	p {
 		text-align:center;
 		line-height:12px;
-		position: absolute;
-		width: 280px;
-		top: 30px;
-		left: 154px;
+		position:absolute;
+		width:280px;
+		top:30px;
+		left:154px;
 	}
 	a:visited, a:link, a:hover {
-		color: #54311e;
+		color:#54311e;
 	}
 }
 
