@@ -21,7 +21,7 @@
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 body {
-	background:#f8e9d1 url('../img/paper.jpg');
+	background:#f8e9d1 url('../img/paper.jpg') fixed;
 	font-family:Arial, sans-serif;
 	font-size:14px;
 }
@@ -112,6 +112,14 @@ cite {
 	p:last-child {
 		margin-bottom:@gutter-width * 1px;
 	}
+  p.highlight {
+    margin:auto;
+    padding:20px;
+    text-align:center;
+    font-family:'VintageRegular';
+    color:#47562c;
+    font-size:22px;
+  }
   img.accent {
     .marginned();
     margin-bottom:@gutter-width * 1px;
@@ -131,6 +139,9 @@ footer {
 	font-family:Arial, sans-serif;
 	font-size:11px;
 	color:#3b2314;
+  min-height:100px;
+  margin-bottom:@gutter-width * 1px;
+  float:right;
 	img.kenya-keys {
 		position:absolute;
 		top:@gutter-width * 1px;
