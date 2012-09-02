@@ -26,7 +26,7 @@ namespace app\controllers;
 class PagesController extends \lithium\action\Controller {
 
 	public function view() {
-		$path = func_get_args() ?: array('home');
+		$path = func_get_args() ?: array('landing');
 		$template = join('/', $path);
 		$layout = strstr($template, 'home') !== false ? 'placeholder' : 'default';
 		// die('<pre>' . print_r(compact('layout', 'template'), true) . '</pre>');
