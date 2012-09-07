@@ -16,9 +16,10 @@
 <?= $this->html->image('timberline_1.jpg', array('class' => 'accent left')); ?>
 <p>The enthusiastic student council of Timberline Middle School united to pull off a great fundraiser for their Global Classroom match of Mwembeni Primary school.  Mwenbeni  was just a tiny school in the bush, where students met under trees for lack of classrooms.  The lack of facilities kept hundreds of children from attending school.  The ones that did walked miles to get there.  When Mwembeni  got an outstanding new principal, Charles Chebebe, things started to happen.  He contacted Kenya Keys and told about his plight. </p>
 <p>Timberline Middle School decided to make a difference for the students of Mwembeni.  A spirited assembly launched their fundraising.</p>
+<?= $this->html->image('timberline_2.jpg', array('class' => 'accent left')); ?>
 <p>Through class competitions, fun events and sales of treats at lunch, Timberline was able to raise a record $11,000 to make the primary school dreams of the village of Mwembeni come true.</p>
-<?= $this->html->image('timberline_2.jpg', array('class' => 'accent right')); ?>
 <p>In June 2012, Kenya Keys interns were able to celebrate the opening of a beautiful new classroom and eight latrines, laying the ground work for the school to take one more step on into a primary school campus of learning and achievement.</p>
+<?= $this->html->image('timberline_3.jpg', array('class' => 'accent right')); ?>
 <p>Very happy Mwembeni Students in front of nearly finished classroom.  Here is the side of the classroom with painted white stones leading to the latrine in the far background.   Below is the finished ‘state of the art’ 8-hole latrine.  It’s soo nice!</p>
 <p>Thank you Timberline!</p>
 
