@@ -20,7 +20,7 @@
 <p>Through class competitions, fun events and sales of treats at lunch, Timberline was able to raise a record $11,000 to make the primary school dreams of the village of Mwembeni come true.</p>
 <p>In June 2012, Kenya Keys interns were able to celebrate the opening of a beautiful new classroom and eight latrines, laying the ground work for the school to take one more step on into a primary school campus of learning and achievement.</p>
 <?= $this->html->image('timberline_3.jpg', array('class' => 'accent right')); ?>
-<p>Very happy Mwembeni Students in front of nearly finished classroom.  Here is the side of the classroom with painted white stones leading to the latrine in the far background.   Below is the finished ‘state of the art’ 8-hole latrine.  It’s soo nice!</p>
+<p>Above, you can see very happy Mwembeni Students in front of nearly finished classroom.  To the right is the finished ‘state of the art’ 8-hole latrine.  It’s soo nice!</p>
 <p>Thank you Timberline!</p>
 
 <h2>Merit Academy <span>Mtulu Primary School</span></h2>
