@@ -1,7 +1,7 @@
 <?php $this->title('Home'); ?>
 
-<h1>Cross-Cultural Education</h1>
-<p>
+<h1>Connecting Schools Across the World</h1>
+<p style="text-align:center">
 	<iframe width="560" height="315" src="http://www.youtube.com/embed/3RVwgc3OX5w" frameborder="0" allowfullscreen></iframe>
 </p>
 <h1>About Global Classroom</h1>
@@ -11,4 +11,6 @@
 <p>
 	Troy Holmberg, director of Engineering for Good, the charitable arm of <?= $this->html->link('US Synthetic', 'http://www.ussynthetic.com') ?>, saw how rewarding it was to unite a US school with a desperately needy school in Kenya.  Knowing that Kenya Keys did an outstanding job working with school age kids, both in the US and Kenya, he contacted them to see if they would want to partner with US Synthetic in launching The Global Classroom initiative,  which would link children from the two cultures in a mutual experience of learning and growth.
 </p>
+<p class="highlight">100% of all donations go to Kenyan Students!</p>
+<p style="text-align:center"><?= $this->html->link('Download our Introduction Flyer', '/pdf/gc_flyer_2011.pdf'); ?></p>
 

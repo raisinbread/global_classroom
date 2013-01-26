@@ -8,7 +8,7 @@
 
   <meta name="viewport" content="width=device-width">
   <?php echo $this->html->style(array('reset')); ?>
-  <link rel="stylesheet" type="text/css" href="/css/style.less" />
+<link rel="stylesheet" type="text/css" href="<?= $this->url() ?>css/style.less" />
 
   <script src="/js/libs/modernizr-2.5.3.min.js"></script>
   <?php echo $this->scripts(); ?>

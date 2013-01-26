@@ -5,7 +5,7 @@
 <h2>Step 1:</h2>
 <?= $this->html->image('engineering_for_good.png', array('class' => 'accent right')); ?>
 <p>Contact Troy Holmberg of US Synthetic Engineering Good at tholmberg@ussynthetic.com, or Rinda Hayes of Kenya Keys at rinda@kenyakeys.org.</p>
-<p><?= $this->html->link('Download our Introduction Flyer by clicking here.', '/pdf/gc_flyer_2011.pdf'); ?></p>
+<p><?= $this->html->link('Download our Introduction Flyer', '/pdf/gc_flyer_2011.pdf'); ?></p>
 
 <h2>Step 2:</h2>
 <p>Set up a time to discuss your interests, needs, and choose a project. Typically involvement works best coming from the student council, a club faculty advisor, or Parent Teacher Organizations. For example: Do you want to educate your group and give them an appreciation for all they have or are you simply looking for a service project? Do you want to connect with a sister school and find ways to exchange and communicate?</p>
