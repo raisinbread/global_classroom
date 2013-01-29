@@ -4,7 +4,7 @@
 
 <h2>STEP 1: PLAN</h2>
 
-<p><strong>Contact Dorothy Winters <a href="mailto:Dorothy@kenyakeys.org">mailto:Dorothy@kenyakeys.org</a> or Rinda Hayes <a href="mailto:rinda@kenyakeys.org">rinda@kenyakeys.org.</a></strong></p>
+<p><strong>Contact Dorothy Winters <a href="mailto:Dorothy@kenyakeys.org">dorothy@kenyakeys.org</a> or Rinda Hayes <a href="mailto:rinda@kenyakeys.org">rinda@kenyakeys.org.</a></strong></p>
 
 <p><strong>Set up a time with Rinda or Dorothy to discuss your objectives, interests and needs.</strong> Choose a sister school and corresponding project.  Each school is different, both in the U.S. and in Kenya.  We want to help you plan a Global Classroom experience that is right for your school or classroom.  Projects can range from  raising money to build desks to building classrooms and latrines.  Or perhaps your school/class would like to focus on books and library assistance.  Nothing is more rewarding than getting books in the hands of children who have never had them!</a>
 
