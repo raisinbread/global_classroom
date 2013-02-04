@@ -8,7 +8,7 @@
 
 <p><strong>Set up a time with Rinda or Dorothy to discuss your objectives, interests and needs.</strong> Choose a sister school and corresponding project.  Each school is different, both in the U.S. and in Kenya.  We want to help you plan a Global Classroom experience that is right for your school or classroom.  Projects can range from  raising money to build desks to building classrooms and latrines.  Or perhaps your school/class would like to focus on books and library assistance.  Nothing is more rewarding than getting books in the hands of children who have never had them!</a>
 
-<p>You could also use our <strong>Strides for Education</strong> program as part of your plan.  It is a fun, easy way to get students involved in helping locally and globally.</p>
+<p>You could also use our <strong><a href="http://www.KenyaKeys.org/Files/Pdf/Strides for Education.pdf">Strides for Education</a></strong> program as part of your plan.  It is a fun, easy way to get students involved in helping locally and globally.</p>
 
 <p><strong>Plan activities that will raise funds for your sister school. Make it fun!</strong>   Initiating this plan through the student council and their advisor usually works best.  PTA involvement call also be most helpful.  Or maybe you just have a class that wants to be involved.  Your involvement can be as large or small as you wish.</p>
 
@@ -20,7 +20,7 @@
 
 <h2>STEP 3: TAKE ACTION</h2>
 
-<p><strong>Work together to raise funds for your sister school’s needs.</strong>  There are lots of ways to get the students enthused.   For fundraising ideas, check out our  Fun Fundraising Ideas.</p>
+<p><strong>Work together to raise funds for your sister school’s needs.</strong>  There are lots of ways to get the students enthused.   For fundraising ideas, check out our <a href="http://www.KenyaKeys.org/Files/Pdf/kkfunfundraising2.pdf">Fun Fundraising Ideas.</a></p>
 
 <p><strong>Celebrate the success of the service/fundraising and congratulate the students.</strong>  Consider having an achievement celebration or assembly (optional).  Memorialize your success with pictures in a display at school.  Kenya Keys offers support for all of this.</p>
 
